@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Appbooster-bot github extension",
+  "version": "0.1.0",
+  "description": "Adds functionality to ask appbooster bot on github to do some useful staff",
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://github.com/appbooster/*/pull/*"]
+  }],
+  "applications": {
+    "gecko": {
+      "id": "github-to-jira@appbooster.com"
+    }
+  }
+
+}
