@@ -6,7 +6,9 @@
   function handleButtonClick(event) {
     event.preventDefault()
     document.getElementById('new_comment_field').value = MERGE_MESSSAGE
-    document.querySelector('#partial-new-comment-form-actions .btn').click()
+    setTimeout(() => { 
+      document.querySelector('#partial-new-comment-form-actions .btn').click()
+    }, 300)
   }
 
   function addAppboosterButton() {
