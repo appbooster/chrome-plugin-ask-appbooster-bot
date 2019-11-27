@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Appbooster-bot github extension",
   "version": "0.2.1",
   "description": "Adds functionality to ask appbooster bot on github to do some useful staff",
